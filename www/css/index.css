@@ -1,0 +1,73 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#page {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: scroll;
+}
+#contents {
+  position: absolute;
+  top: 60px;
+  bottom: 100%;
+  padding: 2em;
+}
+
+#map {
+  width: 80%;
+  margin-left: 10%;
+  height: 300px;
+}
+
+#header {
+  position: fixed;
+  left: 0;
+  top: 0px;
+  right: 0;
+  padding-top: 30px;
+  height: 60px;
+  z-index: 2;
+  font-size: 150%;
+  font-weight: bold;
+  text-align: center;
+  background-color: lightgray;
+  border-bottom: 1px solid gray;
+}
+
+.virtualDialog {
+  background-color:rgba(0,0,0,0.25);
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2 !important;
+}
+
+.virtualDialog div {
+  position: absolute;
+  margin: auto !important;
+  padding: 1em;
+  width: auto;
+  height: auto;
+  background-color: #CCC;
+  border: 1px solid #eee;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: inline-table;
+  overflow: visible;
+}
+
+p {
+  font-size: 150%;
+}
